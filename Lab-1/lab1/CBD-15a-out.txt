@@ -1,0 +1,18 @@
+Insira o seu nome e o seu pedido, separados por ';', ou escreva 'quit' para sair:
+joao;bolos
+Pedido do utilizador: joao [produto: bolos] aceite com sucesso
+
+Insira o seu nome e o seu pedido, separados por ';', ou escreva 'quit' para sair:
+joao;tarte
+Pedido do utilizador: joao [produto: tarte] aceite com sucesso
+
+Insira o seu nome e o seu pedido, separados por ';', ou escreva 'quit' para sair:
+joao;sumos
+ERROR: Já passou o número de pedidos nesta janela temporal.
+Insira o seu nome e o seu pedido, separados por ';', ou escreva 'quit' para sair:
+maria;agua
+Pedido do utilizador: maria [produto: agua] aceite com sucesso
+
+Insira o seu nome e o seu pedido, separados por ';', ou escreva 'quit' para sair:
+quit
+Saindo...

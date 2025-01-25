@@ -1,0 +1,122 @@
+cqlsh:meu_keyspace> DESCRIBE KEYSPACE meu_keyspace;
+
+CREATE KEYSPACE meu_keyspace WITH replication = {'class': 'SimpleStrategy', 'replication_factor': '1'}  AND durable_writes = true;
+cqlsh:meu_keyspace> 
+cqlsh:meu_keyspace> USE meu_keyspace;
+cqlsh:meu_keyspace> 
+cqlsh:meu_keyspace> CREATE TABLE pessoas (
+                ...     id UUID PRIMARY KEY,
+                ...     nome text,
+                ...     idade int
+                ... );
+;cqlsh:meu_keyspace> 
+cqlsh:meu_keyspace> DESCRIBE TABLE pessoas;
+
+CREATE TABLE meu_keyspace.pessoas (
+    id uuid PRIMARY KEY,
+    idade int,
+    nome text
+) WITH additional_write_policy = '99p'
+    AND bloom_filter_fp_chance = 0.01
+    AND caching = {'keys': 'ALL', 'rows_per_partition': 'NONE'}
+    AND cdc = false
+    AND comment = ''
+    AND compaction = {'class': 'org.apache.cassandra.db.compaction.SizeTieredCompactionStrategy', 'max_threshold': '32', 'min_threshold': '4'}
+    AND compression = {'chunk_length_in_kb': '16', 'class': 'org.apache.cassandra.io.compress.LZ4Compressor'}
+    AND memtable = 'default'
+    AND crc_check_chance = 1.0
+    AND default_time_to_live = 0
+    AND extensions = {}
+    AND gc_grace_seconds = 864000
+    AND max_index_interval = 2048
+    AND memtable_flush_period_in_ms = 0
+    AND min_index_interval = 128
+    AND read_repair = 'BLOCKING'
+    AND speculative_retry = '99p';
+cqlsh:meu_keyspace> 
+cqlsh:meu_keyspace> INSERT INTO pessoas (id, nome, idade) VALUES (uuid(), 'João', 30);
+cqlsh:meu_keyspace> 
+cqlsh:meu_keyspace> SELECT * FROM pessoas;
+
+ id                                   | idade | nome
+--------------------------------------+-------+------
+ 2060bb83-9977-458f-a682-66b4f858789b |    30 | João
+
+(1 rows)
+cqlsh:meu_keyspace> UPDATE pessoas SET idade = 31 WHERE id = 2060bb83-9977-458f-a682-66b4f858789b;
+cqlsh:meu_keyspace> SELECT * FROM pessoas;
+
+ id                                   | idade | nome
+--------------------------------------+-------+------
+ 2060bb83-9977-458f-a682-66b4f858789b |    31 | João
+
+(1 rows)
+cqlsh:meu_keyspace> DELETE FROM pessoas WHERE id = 2060bb83-9977-458f-a682-66b4f858789b;
+cqlsh:meu_keyspace> SELECT * FROM pessoas;
+
+ id | idade | nome
+----+-------+------
+
+(0 rows)
+cqlsh:meu_keyspace> CREATE TABLE informacao_tupla (
+                ...     id UUID PRIMARY KEY,
+                ...     info tuple<text, int, tuple<float, text>>
+                ... );
+
+INSERT INTO informacao_tupla (id, info) VALUES (uuid(), ('João', 25, (3.5, 'detalhe')));cqlsh:meu_keyspace> 
+cqlsh:meu_keyspace> -- Inserir dados na tabela com uma estrutura de tupla
+cqlsh:meu_keyspace> INSERT INTO informacao_tupla (id, info) VALUES (uuid(), ('João', 25, (3.5, 'detalhe')));
+cqlsh:meu_keyspace> -- Criar uma tabela "tags_set" com uma coleção do tipo SET para armazenar tags únicas
+cqlsh:meu_keyspace> CREATE TABLE tags_set (id UUID PRIMARY KEY, etiquetas set<text>);
+
+CREATE TABLE lista_itens (id UUID PRIMARY KEY, lista list<text>);
+INSERT INTO lista_itens (id, lista) VALUES (uuid(), ['item1', 'item2']);
+
+CREATE TABLE mapa_dados (id UUID PRIMARY KEY, mapa map<text, int>);
+INSERT INTO mapa_dados (id, mapa) VALUES (uuid(), {'chave1': 10, 'chave2': 20});
+
+INSERT INTO pessoas (id, nome, idade) VALUES (uuid(), 'Pedro', 40) USING TTL 86400;
+
+INSERT INTO pessoas (id, nome, idade) VALUES (uuid(), 'Maria', 29) USING TIMESTAMP 1672531200000;
+cqlsh:meu_keyspace> INSERT INTO tags_set (id, etiquetas) VALUES (uuid(), {'etiqueta1', 'etiqueta2'});
+cqlsh:meu_keyspace> 
+cqlsh:meu_keyspace> CREATE TABLE lista_itens (id UUID PRIMARY KEY, lista list<text>);
+cqlsh:meu_keyspace> INSERT INTO lista_itens (id, lista) VALUES (uuid(), ['item1', 'item2']);
+cqlsh:meu_keyspace> SELECT * FROM lista_itens;
+    
+     id                                   | lista
+--------------------------------------+----------------
+    3b3b1b1b-0b1b-4b1b-8b1b-1b1b1b1b1b1b | ['item1', 'item2']
+    
+    (1 rows)
+
+cqlsh:meu_keyspace>
+cqlsh:meu_keyspace> CREATE TABLE mapa_dados (id UUID PRIMARY KEY, mapa map<text, int>);
+cqlsh:meu_keyspace> INSERT INTO mapa_dados (id, mapa) VALUES (uuid(), {'chave1': 10, 'chave2': 20});
+cqlsh:meu_keyspace> 
+cqlsh:meu_keyspace> INSERT INTO pessoas (id, nome, idade) VALUES (uuid(), 'Pedro', 40) USING TTL 86400;
+cqlsh:meu_keyspace> 
+cqlsh:meu_keyspace> INSERT INTO pessoas (id, nome, idade) VALUES (uuid(), 'Maria', 29) USING TIMESTAMP 1672531200000;
+cqlsh:meu_keyspace> DESCRIBE lista_itens 
+
+CREATE TABLE meu_keyspace.lista_itens (
+    id uuid PRIMARY KEY,
+    lista list<text>
+) WITH additional_write_policy = '99p'
+    AND bloom_filter_fp_chance = 0.01
+    AND caching = {'keys': 'ALL', 'rows_per_partition': 'NONE'}
+    AND cdc = false
+    AND comment = ''
+    AND compaction = {'class': 'org.apache.cassandra.db.compaction.SizeTieredCompactionStrategy', 'max_threshold': '32', 'min_threshold': '4'}
+    AND compression = {'chunk_length_in_kb': '16', 'class': 'org.apache.cassandra.io.compress.LZ4Compressor'}
+    AND memtable = 'default'
+    AND crc_check_chance = 1.0
+    AND default_time_to_live = 0
+    AND extensions = {}
+    AND gc_grace_seconds = 864000
+    AND max_index_interval = 2048
+    AND memtable_flush_period_in_ms = 0
+    AND min_index_interval = 128
+    AND read_repair = 'BLOCKING'
+    AND speculative_retry = '99p';
+cqlsh:meu_keyspace> 

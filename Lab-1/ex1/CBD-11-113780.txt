@@ -1,0 +1,26 @@
+ping
+set k1 joao
+get k1
+sadd key ananas
+get ananas
+SET "VAR-TESTE" "FUNCIONA"
+GET "VAR-TESTE"
+Ping
+PING
+STRLEN "COMPRIMENTO"
+STRLEN "comprimento"
+SET "DOIS" 2
+GET "DOIS"
+INCR "DOIS"
+GET "DOIS"
+RENAME "DOIS" "TRES"
+GET "DOIS"
+GET "TRES"
+TYPE "TRES"
+DEL "TRES"
+GET "TRES"
+SET 99 "number"
+TYPE 99
+INCR 99
+clear
+exit

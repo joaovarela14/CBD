@@ -1,0 +1,48 @@
+// NMEC: 00000
+
+# 0. Carregue o conteudo do ficheiro `/resouces/git_selection.csv`.
+LOAD CSV WITH HEADERS FROM "file:///git_selection.csv" AS row
+MERGE (u:User{svn_id: row.svn_id})
+ON CREATE SET u.real_name = row.real_name, u.organization = row.organization
+MERGE (proj:Project {name: row.project_name})
+MERGE (u)-[:CONTRIBUTED {role: row.role_on_project}]->(proj);
+
+
+# 1. Liste a informação de cada utilizador.
+MATCH (u:User)
+RETURN u AS UserInfo;
+
+# 2. Liste o nome de cada utilizador.
+MATCH (u:User)
+RETURN u.real_name AS UserName;
+
+# 3. Liste a informação de cada projeto, no qual tenha participado pelo menos um utilizador.
+MATCH (:User)-[:CONTRIBUTED]->(p:Project)
+RETURN DISTINCT p AS ProjectInfo;
+
+# 4. Liste os utilizadores e total de projetos em que cada um colabora.
+MATCH (u:User)-[:CONTRIBUTED]->(p:Project)
+RETURN u.real_name AS UserName, COUNT(DISTINCT p) AS TotalProjects;
+
+# 5. Liste os utilizadores e do total de projetos em que cada colabora ordenados por ordem decrescente do total.
+MATCH (u:User)-[:CONTRIBUTED]->(p:Project)
+RETURN u.real_name AS UserName, COUNT(DISTINCT p) AS TotalProjects
+ORDER BY TotalProjects DESC;
+
+# 6. Liste projetos e total de membros em cada projeto.
+MATCH (u:User)-[:CONTRIBUTED]->(p:Project)
+RETURN p.name AS ProjectName, COUNT(DISTINCT u) AS TotalMembers;
+
+# 7. Liste projetos e total de membros com a role "Committer" em cada projeto.
+MATCH (u:User)-[c:CONTRIBUTED {role: 'Committer'}]->(p:Project)
+RETURN p.name AS ProjectName, COUNT(DISTINCT u) AS TotalCommitters;
+
+# 8. Liste todos os utilizadores que participaram nos mesmo projetos do que o utilizador "atm" (id). Mostre os atributos: nome de "atm", nome utilizador 2, nome do projeto.
+MATCH (u1:User {svn_id: 'atm'})-[:CONTRIBUTED]->(project:Project)<-[:CONTRIBUTED]-(u2:User)
+WHERE u2.svn_id <> u1.svn_id
+RETURN u1.real_name AS User1, u2.real_name AS User2, project.name AS ProjectName;
+
+# 9. Liste todos os utilizadores que participaram com a role "Committer" em projetos em que o utilizador "atm" (id1) participou com a role "PMC".
+MATCH (atm:User {svn_id: 'atm'})-[:CONTRIBUTED {role: 'PMC'}]->(project:Project)<-[:CONTRIBUTED {role: 'Committer'}]-(otherUser:User)
+WHERE atm.svn_id <> otherUser.svn_id
+RETURN atm.real_name AS AtmUser, otherUser.real_name AS OtherUser, project.name AS ProjectName;

@@ -1,0 +1,21 @@
+Qual a opção? (a ou b): b
+Limite alterado para 5 produtos.
+Timeslot alterado para 4 segundos.
+Produto Produto1 registado para o utilizador Joao | +1 unidades (1 no total)
+Tempo de execução ao registrar produto: 62ms
+Produto Produto2 registado para o utilizador Joao | +2 unidades (2 no total)
+Tempo de execução ao registrar produto: 6ms
+Produto Produto3 registado para o utilizador Joao | +3 unidades (3 no total)
+Tempo de execução ao registrar produto: 5ms
+Produto ProdutoX registado para o utilizador Joao | +3 unidades (3 no total)
+Produto ProdutoY registado para o utilizador Joao | +3 unidades (3 no total)
+ProdutoY Qty: 3 Time to expire (s): 4
+
+Tempo de execução ao ler todos os produtos: 2ms
+Produto ProdutoY registado para o utilizador Joao | +2 unidades (5 no total)
+ProdutoY Qty: 3 Time to expire (s): 1
+ProdutoY Qty: 2 Time to expire (s): 4
+
+ProdutoY Qty: 2 Time to expire (s): 1
+
+Tempo de execução ao ler todos os produtos: 3ms

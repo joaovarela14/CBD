@@ -1,0 +1,177 @@
+
+ [json]
+----------------------------------------------------------------------------------------------------------------------------------------------
+ {"username": "charlie_lee", "email": "charlie.lee@example.com", "name": "Charlie Lee", "registration_timestamp": "2020-05-05 16:30:00.000Z"}
+          {"username": "john_doe", "email": "john.doe@example.com", "name": "John Doe", "registration_timestamp": "2020-01-01 08:30:00.000Z"}
+ {"username": "alice_jones", "email": "alice.jones@example.com", "name": "Alice Jones", "registration_timestamp": "2020-03-10 12:15:00.000Z"}
+    {"username": "jane_smith", "email": "jane.smith@example.com", "name": "Jane Smith", "registration_timestamp": "2020-02-15 10:45:00.000Z"}
+    {"username": "bob_martin", "email": "bob.martin@example.com", "name": "Bob Martin", "registration_timestamp": "2020-04-20 14:00:00.000Z"}
+
+(5 rows)
+
+ [json]
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                    {"video_id": 1, "upload_timestamp": "2020-01-12 18:00:00.000Z", "author": "john_doe", "description": "Food in Paris", "name": "Travel Vlog: Paris", "tags": ["Paris", "food", "travel"]}
+                                          {"video_id": 1, "upload_timestamp": "2020-01-11 15:00:00.000Z", "author": "john_doe", "description": "Best spots in Paris", "name": "Travel Vlog: Paris", "tags": ["France", "tourist", "travel"]}
+                  {"video_id": 1, "upload_timestamp": "2020-01-10 10:00:00.000Z", "author": "john_doe", "description": "Exploring the beautiful city of Paris", "name": "Travel Vlog: Paris", "tags": ["Aveiro", "Paris", "travel", "vlog"]}
+                                                 {"video_id": 2, "upload_timestamp": "2020-02-22 15:30:00.000Z", "author": "jane_smith", "description": "Wall decorations", "name": "DIY: Home Decor Ideas", "tags": ["DIY", "art", "home"]}
+                                         {"video_id": 2, "upload_timestamp": "2020-02-21 13:30:00.000Z", "author": "jane_smith", "description": "Budget-friendly DIYs", "name": "DIY: Home Decor Ideas", "tags": ["DIY", "budget", "decor"]}
+                            {"video_id": 2, "upload_timestamp": "2020-02-20 12:30:00.000Z", "author": "jane_smith", "description": "Creative ways to decorate your home", "name": "DIY: Home Decor Ideas", "tags": ["DIY", "decor", "home"]}
+                      {"video_id": 4, "upload_timestamp": "2020-04-17 16:15:00.000Z", "author": "bob_martin", "description": "Comparing the latest tablets of 2020", "name": "Tech Review: Tablets", "tags": ["gadgets", "tablets", "tech"]}
+ {"video_id": 4, "upload_timestamp": "2020-04-16 16:15:00.000Z", "author": "bob_martin", "description": "Detailed reviews of the top smartphones", "name": "Tech Review: Smartphones", "tags": ["Aveiro", "gadgets", "smartphones", "tech"]}
+                      {"video_id": 4, "upload_timestamp": "2020-04-15 16:15:00.000Z", "author": "bob_martin", "description": "Reviewing the latest laptops of 2020", "name": "Tech Review: Laptops", "tags": ["gadgets", "laptops", "tech"]}
+          {"video_id": 3, "upload_timestamp": "2020-03-27 14:45:00.000Z", "author": "alice_jones", "description": "Healthy and quick breakfast ideas", "name": "Cooking with Alice: Breakfast", "tags": ["breakfast", "cooking", "healthy"]}
+  {"video_id": 3, "upload_timestamp": "2020-03-26 14:45:00.000Z", "author": "alice_jones", "description": "Simple dessert recipes that anyone can make", "name": "Cooking with Alice: Desserts", "tags": ["cooking", "desserts", "recipes"]}
+              {"video_id": 3, "upload_timestamp": "2020-03-25 14:45:00.000Z", "author": "alice_jones", "description": "Delicious pasta recipes for beginners", "name": "Cooking with Alice: Pasta", "tags": ["cooking", "pasta", "recipes"]}
+
+(12 rows)
+
+ [json]
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+          {"video_id": 1, "comment_id": 1, "author": "jane_smith", "content": "Amazing vlog! Makes me want to visit Paris.", "timestamp": "2020-01-11 08:00:00.000Z"}
+                         {"video_id": 1, "comment_id": 2, "author": "bob_martin", "content": "Great visuals and narration!", "timestamp": "2020-01-12 09:30:00.000Z"}
+                           {"video_id": 1, "comment_id": 3, "author": "alice_jones", "content": "I loved the food segment!", "timestamp": "2020-01-13 10:30:00.000Z"}
+                {"video_id": 2, "comment_id": 4, "author": "john_doe", "content": "Loved these decor ideas. Very creative!", "timestamp": "2020-02-21 10:45:00.000Z"}
+                      {"video_id": 2, "comment_id": 5, "author": "charlie_lee", "content": "Helpful tips for small spaces!", "timestamp": "2020-02-22 11:15:00.000Z"}
+                   {"video_id": 2, "comment_id": 6, "author": "bob_martin", "content": "Budget-friendly ideas are amazing!", "timestamp": "2020-02-23 12:00:00.000Z"}
+ {"video_id": 4, "comment_id": 10, "author": "alice_jones", "content": "Great laptop reviews. Helped me pick the best one!", "timestamp": "2020-04-16 10:00:00.000Z"}
+        {"video_id": 4, "comment_id": 11, "author": "jane_smith", "content": "The smartphone comparison was very detailed.", "timestamp": "2020-04-17 11:00:00.000Z"}
+     {"video_id": 4, "comment_id": 12, "author": "charlie_lee", "content": "Thanks for the tablet review. Just bought one!", "timestamp": "2020-04-18 12:00:00.000Z"}
+    {"video_id": 3, "comment_id": 7, "author": "john_doe", "content": "The pasta recipe was fantastic! My family loved it.", "timestamp": "2020-03-26 10:00:00.000Z"}
+      {"video_id": 3, "comment_id": 8, "author": "charlie_lee", "content": "I made the dessert, and it turned out amazing!", "timestamp": "2020-03-27 11:00:00.000Z"}
+           {"video_id": 3, "comment_id": 9, "author": "jane_smith", "content": "Breakfast recipes are a lifesaver. Thanks!", "timestamp": "2020-03-28 12:00:00.000Z"}
+
+(12 rows)
+
+ [json]
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                           {"video_id": 1, "timestamp": "2020-01-13 10:30:00.000Z", "author": "alice_jones", "comment_id": 3, "content": "I loved the food segment!"}
+                         {"video_id": 1, "timestamp": "2020-01-12 09:30:00.000Z", "author": "bob_martin", "comment_id": 2, "content": "Great visuals and narration!"}
+          {"video_id": 1, "timestamp": "2020-01-11 08:00:00.000Z", "author": "jane_smith", "comment_id": 1, "content": "Amazing vlog! Makes me want to visit Paris."}
+                   {"video_id": 2, "timestamp": "2020-02-23 12:00:00.000Z", "author": "bob_martin", "comment_id": 6, "content": "Budget-friendly ideas are amazing!"}
+                      {"video_id": 2, "timestamp": "2020-02-22 11:15:00.000Z", "author": "charlie_lee", "comment_id": 5, "content": "Helpful tips for small spaces!"}
+                {"video_id": 2, "timestamp": "2020-02-21 10:45:00.000Z", "author": "john_doe", "comment_id": 4, "content": "Loved these decor ideas. Very creative!"}
+     {"video_id": 4, "timestamp": "2020-04-18 12:00:00.000Z", "author": "charlie_lee", "comment_id": 12, "content": "Thanks for the tablet review. Just bought one!"}
+        {"video_id": 4, "timestamp": "2020-04-17 11:00:00.000Z", "author": "jane_smith", "comment_id": 11, "content": "The smartphone comparison was very detailed."}
+ {"video_id": 4, "timestamp": "2020-04-16 10:00:00.000Z", "author": "alice_jones", "comment_id": 10, "content": "Great laptop reviews. Helped me pick the best one!"}
+           {"video_id": 3, "timestamp": "2020-03-28 12:00:00.000Z", "author": "jane_smith", "comment_id": 9, "content": "Breakfast recipes are a lifesaver. Thanks!"}
+      {"video_id": 3, "timestamp": "2020-03-27 11:00:00.000Z", "author": "charlie_lee", "comment_id": 8, "content": "I made the dessert, and it turned out amazing!"}
+    {"video_id": 3, "timestamp": "2020-03-26 10:00:00.000Z", "author": "john_doe", "comment_id": 7, "content": "The pasta recipe was fantastic! My family loved it."}
+
+(12 rows)
+
+ [json]
+------------------------------
+ {"video_id": 1, "rating": 5}
+ {"video_id": 1, "rating": 4}
+ {"video_id": 1, "rating": 3}
+ {"video_id": 2, "rating": 5}
+ {"video_id": 2, "rating": 4}
+ {"video_id": 4, "rating": 5}
+ {"video_id": 4, "rating": 4}
+ {"video_id": 3, "rating": 5}
+ {"video_id": 3, "rating": 4}
+ {"video_id": 3, "rating": 3}
+
+(10 rows)
+
+ [json]
+--------------------------------------------------------------------------------------------
+  {"video_id": 1, "follower": "bob_martin", "follow_timestamp": "2020-01-11 12:00:00.000Z"}
+ {"video_id": 1, "follower": "charlie_lee", "follow_timestamp": "2020-01-12 13:00:00.000Z"}
+  {"video_id": 1, "follower": "jane_smith", "follow_timestamp": "2020-01-10 11:00:00.000Z"}
+ {"video_id": 2, "follower": "alice_jones", "follow_timestamp": "2020-02-21 14:00:00.000Z"}
+ {"video_id": 2, "follower": "charlie_lee", "follow_timestamp": "2020-02-22 15:00:00.000Z"}
+    {"video_id": 2, "follower": "john_doe", "follow_timestamp": "2020-02-20 13:00:00.000Z"}
+ {"video_id": 4, "follower": "alice_jones", "follow_timestamp": "2020-04-16 11:00:00.000Z"}
+ {"video_id": 4, "follower": "charlie_lee", "follow_timestamp": "2020-04-18 13:00:00.000Z"}
+  {"video_id": 4, "follower": "jane_smith", "follow_timestamp": "2020-04-17 12:00:00.000Z"}
+ {"video_id": 3, "follower": "charlie_lee", "follow_timestamp": "2020-03-27 12:00:00.000Z"}
+  {"video_id": 3, "follower": "jane_smith", "follow_timestamp": "2020-03-26 11:00:00.000Z"}
+    {"video_id": 3, "follower": "john_doe", "follow_timestamp": "2020-03-28 13:00:00.000Z"}
+
+(12 rows)
+
+ [json]
+----------------------------------------------------------------------------------------------------------------------------------------
+  {"video_id": 2, "user_id": 1, "event_timestamp": "2020-02-20 12:36:00.000Z", "event_id": 12, "event_type": "stop", "video_time": 180}
+  {"video_id": 2, "user_id": 1, "event_timestamp": "2020-02-20 12:35:00.000Z", "event_id": 11, "event_type": "play", "video_time": 120}
+ {"video_id": 2, "user_id": 1, "event_timestamp": "2020-02-20 12:34:00.000Z", "event_id": 10, "event_type": "pause", "video_time": 120}
+    {"video_id": 2, "user_id": 1, "event_timestamp": "2020-02-20 12:33:00.000Z", "event_id": 9, "event_type": "play", "video_time": 60}
+   {"video_id": 2, "user_id": 1, "event_timestamp": "2020-02-20 12:32:00.000Z", "event_id": 8, "event_type": "pause", "video_time": 60}
+     {"video_id": 2, "user_id": 1, "event_timestamp": "2020-02-20 12:31:00.000Z", "event_id": 7, "event_type": "play", "video_time": 0}
+   {"video_id": 1, "user_id": 1, "event_timestamp": "2020-01-10 10:06:00.000Z", "event_id": 6, "event_type": "stop", "video_time": 180}
+   {"video_id": 1, "user_id": 1, "event_timestamp": "2020-01-10 10:05:00.000Z", "event_id": 5, "event_type": "play", "video_time": 120}
+  {"video_id": 1, "user_id": 1, "event_timestamp": "2020-01-10 10:04:00.000Z", "event_id": 4, "event_type": "pause", "video_time": 120}
+    {"video_id": 1, "user_id": 1, "event_timestamp": "2020-01-10 10:03:00.000Z", "event_id": 3, "event_type": "play", "video_time": 60}
+   {"video_id": 1, "user_id": 1, "event_timestamp": "2020-01-10 10:02:00.000Z", "event_id": 2, "event_type": "pause", "video_time": 60}
+     {"video_id": 1, "user_id": 1, "event_timestamp": "2020-01-10 10:01:00.000Z", "event_id": 1, "event_type": "play", "video_time": 0}
+  {"video_id": 3, "user_id": 2, "event_timestamp": "2020-03-25 14:51:00.000Z", "event_id": 18, "event_type": "stop", "video_time": 180}
+  {"video_id": 3, "user_id": 2, "event_timestamp": "2020-03-25 14:50:00.000Z", "event_id": 17, "event_type": "play", "video_time": 120}
+ {"video_id": 3, "user_id": 2, "event_timestamp": "2020-03-25 14:49:00.000Z", "event_id": 16, "event_type": "pause", "video_time": 120}
+   {"video_id": 3, "user_id": 2, "event_timestamp": "2020-03-25 14:48:00.000Z", "event_id": 15, "event_type": "play", "video_time": 60}
+  {"video_id": 3, "user_id": 2, "event_timestamp": "2020-03-25 14:47:00.000Z", "event_id": 14, "event_type": "pause", "video_time": 60}
+    {"video_id": 3, "user_id": 2, "event_timestamp": "2020-03-25 14:46:00.000Z", "event_id": 13, "event_type": "play", "video_time": 0}
+
+(18 rows)
+
+ [json]
+---------------------------------------------------------------------------------------------------------------------------------------
+  {"user_id": 1, "event_timestamp": "2020-01-10 10:06:00.000Z", "event_id": 6, "event_type": "stop", "video_id": 1, "video_time": 180}
+  {"user_id": 1, "event_timestamp": "2020-01-10 10:05:00.000Z", "event_id": 5, "event_type": "play", "video_id": 1, "video_time": 120}
+ {"user_id": 1, "event_timestamp": "2020-01-10 10:04:00.000Z", "event_id": 4, "event_type": "pause", "video_id": 1, "video_time": 120}
+   {"user_id": 1, "event_timestamp": "2020-01-10 10:03:00.000Z", "event_id": 3, "event_type": "play", "video_id": 1, "video_time": 60}
+  {"user_id": 1, "event_timestamp": "2020-01-10 10:02:00.000Z", "event_id": 2, "event_type": "pause", "video_id": 1, "video_time": 60}
+    {"user_id": 1, "event_timestamp": "2020-01-10 10:01:00.000Z", "event_id": 1, "event_type": "play", "video_id": 1, "video_time": 0}
+
+(6 rows)
+
+ [json]
+----------------------------------------------------------------------------------------------------------------
+ {"user_id": 1, "event_timestamp": "2020-01-10 10:04:00.000Z", "event_id": 4, "video_id": 1, "video_time": 120}
+  {"user_id": 1, "event_timestamp": "2020-01-10 10:02:00.000Z", "event_id": 2, "video_id": 1, "video_time": 60}
+
+(2 rows)
+
+ [json]
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    {"author": "john_doe", "upload_timestamp": "2020-01-10 10:00:00.000Z", "description": "Exploring the beautiful city of Paris", "name": "Travel Vlog: Paris", "tags": ["Paris", "travel", "vlog"], "video_id": 1}
+     {"author": "john_doe", "upload_timestamp": "2020-01-11 15:00:00.000Z", "description": "Best spots in Paris", "name": "Travel Vlog: Paris - Best spots", "tags": ["France", "tourist", "travel"], "video_id": 2}
+                     {"author": "john_doe", "upload_timestamp": "2020-01-12 18:00:00.000Z", "description": "Food in Paris", "name": "Travel Vlog: Paris - Food", "tags": ["Paris", "food", "travel"], "video_id": 3}
+ {"author": "john_doe", "upload_timestamp": "2020-02-10 10:00:00.000Z", "description": "Exploring the beautiful city of London", "name": "Travel Vlog: London", "tags": ["London", "travel", "vlog"], "video_id": 4}
+       {"author": "john_doe", "upload_timestamp": "2020-02-11 15:00:00.000Z", "description": "Best spots in London", "name": "Travel Vlog: London - Best spots", "tags": ["UK", "tourist", "travel"], "video_id": 5}
+
+(5 rows)
+
+ [json]
+-------------------------------------------------
+  {"user_id": 1, "video_id": 3, "view_count": 5}
+ {"user_id": 1, "video_id": 2, "view_count": 15}
+ {"user_id": 1, "video_id": 1, "view_count": 10}
+
+(3 rows)
+
+ [json]
+--------------------------------------
+ {"video_id": 1, "comment_count": 20}
+ {"video_id": 2, "comment_count": 30}
+ {"video_id": 3, "comment_count": 25}
+
+(3 rows)
+
+ [json]
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                  {"author": "john_doe", "upload_timestamp": "2020-04-12 18:00:00.000Z", "description": "Food in Berlin", "name": "Travel Vlog: Berlin - Food", "tags": ["Berlin", "food", "travel"], "video_id": 12}
+  {"author": "john_doe", "upload_timestamp": "2020-04-11 15:00:00.000Z", "description": "Best spots in Berlin", "name": "Travel Vlog: Berlin - Best spots", "tags": ["Germany", "tourist", "travel"], "video_id": 11}
+ {"author": "john_doe", "upload_timestamp": "2020-04-10 10:00:00.000Z", "description": "Exploring the beautiful city of Berlin", "name": "Travel Vlog: Berlin", "tags": ["Berlin", "travel", "vlog"], "video_id": 10}
+                         {"author": "john_doe", "upload_timestamp": "2020-03-12 18:00:00.000Z", "description": "Food in Rome", "name": "Travel Vlog: Rome - Food", "tags": ["Rome", "food", "travel"], "video_id": 9}
+         {"author": "john_doe", "upload_timestamp": "2020-03-11 15:00:00.000Z", "description": "Best spots in Rome", "name": "Travel Vlog: Rome - Best spots", "tags": ["Italy", "tourist", "travel"], "video_id": 8}
+        {"author": "john_doe", "upload_timestamp": "2020-03-10 10:00:00.000Z", "description": "Exploring the beautiful city of Rome", "name": "Travel Vlog: Rome", "tags": ["Rome", "travel", "vlog"], "video_id": 7}
+                   {"author": "john_doe", "upload_timestamp": "2020-02-12 18:00:00.000Z", "description": "Food in London", "name": "Travel Vlog: London - Food", "tags": ["London", "food", "travel"], "video_id": 6}
+        {"author": "john_doe", "upload_timestamp": "2020-02-11 15:00:00.000Z", "description": "Best spots in London", "name": "Travel Vlog: London - Best spots", "tags": ["UK", "tourist", "travel"], "video_id": 5}
+  {"author": "john_doe", "upload_timestamp": "2020-02-10 10:00:00.000Z", "description": "Exploring the beautiful city of London", "name": "Travel Vlog: London", "tags": ["London", "travel", "vlog"], "video_id": 4}
+                      {"author": "john_doe", "upload_timestamp": "2020-01-12 18:00:00.000Z", "description": "Food in Paris", "name": "Travel Vlog: Paris - Food", "tags": ["Paris", "food", "travel"], "video_id": 3}
+      {"author": "john_doe", "upload_timestamp": "2020-01-11 15:00:00.000Z", "description": "Best spots in Paris", "name": "Travel Vlog: Paris - Best spots", "tags": ["France", "tourist", "travel"], "video_id": 2}
+     {"author": "john_doe", "upload_timestamp": "2020-01-10 10:00:00.000Z", "description": "Exploring the beautiful city of Paris", "name": "Travel Vlog: Paris", "tags": ["Paris", "travel", "vlog"], "video_id": 1}
+
+(12 rows)

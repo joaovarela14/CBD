@@ -1,0 +1,114 @@
+Top 10 Youtubers por Subscritores:
+Rank: 1, Youtuber: T-Series, Subscritores: 245000000, Categoria: Music
+Rank: 2, Youtuber: YouTube Movies, Subscritores: 170000000, Categoria: Film & Animation
+Rank: 3, Youtuber: MrBeast, Subscritores: 166000000, Categoria: Entertainment
+Rank: 4, Youtuber: Cocomelon - Nursery Rhymes, Subscritores: 162000000, Categoria: Education
+Rank: 5, Youtuber: SET India, Subscritores: 159000000, Categoria: Shows
+Rank: 6, Youtuber: Music, Subscritores: 119000000, Categoria: nan
+Rank: 7, Youtuber: ��� Kids Diana Show, Subscritores: 112000000, Categoria: People & Blogs
+Rank: 8, Youtuber: PewDiePie, Subscritores: 111000000, Categoria: Gaming
+Rank: 9, Youtuber: Like Nastya, Subscritores: 106000000, Categoria: People & Blogs
+Rank: 10, Youtuber: Vlad and Niki, Subscritores: 98900000, Categoria: Entertainment
+
+10 Categorias mais populares por visualizações totais:
+Categoria: Music, Visualizações Totais: 3121477506633
+Categoria: Entertainment, Visualizações Totais: 2527739309583
+Categoria: People & Blogs, Visualizações Totais: 1265791201548
+Categoria: Gaming, Visualizações Totais: 717638899629
+Categoria: Education, Visualizações Totais: 696614472899
+Categoria: Comedy, Visualizações Totais: 550112774315
+Categoria: Film & Animation, Visualizações Totais: 544422509313
+Categoria: Shows, Visualizações Totais: 446206826909
+Categoria: nan, Visualizações Totais: 304643391631
+Categoria: News & Politics, Visualizações Totais: 270391919347
+
+10 Países com mais Youtubers:
+País: United States, Total de Canais: 313
+País: India, Total de Canais: 168
+País: nan, Total de Canais: 122
+País: Brazil, Total de Canais: 62
+País: United Kingdom, Total de Canais: 43
+País: Mexico, Total de Canais: 33
+País: Indonesia, Total de Canais: 28
+País: Spain, Total de Canais: 22
+País: Thailand, Total de Canais: 18
+País: South Korea, Total de Canais: 17
+
+Tipos de canal mais populares com base em uploads:
+Tipo de Canal: News, Uploads Totais: 3989151
+Tipo de Canal: Entertainment, Uploads Totais: 3345035
+Tipo de Canal: Music, Uploads Totais: 424950
+Tipo de Canal: Games, Uploads Totais: 399473
+Tipo de Canal: Nonprofit, Uploads Totais: 205824
+
+10 Canais com mais visualizações por subscritor:
+Youtuber: netd m��, Visualizações por Subscritor: 2328,05
+Youtuber: jbalvinVEVO, Visualizações por Subscritor: 1571,48
+Youtuber: Ryan's World, Visualizações por Subscritor: 1571,02
+Youtuber: Vijay Television, Visualizações por Subscritor: 1441,48
+Youtuber: Maroon5VEVO, Visualizações por Subscritor: 1382,25
+Youtuber: shakiraVEVO, Visualizações por Subscritor: 1378,65
+Youtuber: Tsuriki Show, Visualizações por Subscritor: 1369,33
+Youtuber: ViralHog, Visualizações por Subscritor: 1351,26
+Youtuber: LankyBox, Visualizações por Subscritor: 1350,41
+Youtuber: MalumaVEVO, Visualizações por Subscritor: 1348,51
+
+Top 10 Rank médio por categoria:
+Categoria: Trailers, Rank Médio: 85,50
+Categoria: Movies, Rank Médio: 241,00
+Categoria: Nonprofits & Activism, Rank Médio: 314,00
+Categoria: Shows, Rank Médio: 335,46
+Categoria: Film & Animation, Rank Médio: 361,87
+Categoria: Music, Rank Médio: 446,00
+Categoria: Education, Rank Médio: 477,31
+Categoria: News & Politics, Rank Médio: 506,04
+Categoria: Entertainment, Rank Médio: 512,55
+Categoria: Comedy, Rank Médio: 523,62
+
+Top 5 canais com mais subscritores acumulados:
+Tipo de Canal: Entertainment, Subscritores Totais: 6922500000
+Tipo de Canal: Music, Subscritores Totais: 5771500000
+Tipo de Canal: Games, Subscritores Totais: 2111600000
+Tipo de Canal: People, Subscritores Totais: 1953300000
+Tipo de Canal: Education, Subscritores Totais: 1300200000
+
+5 Canais mais bem classificados com base em tipo de canal:
+Tipo de Canal: Music, Melhor Rank: 1
+Tipo de Canal: Games, Melhor Rank: 2
+Tipo de Canal: Entertainment, Melhor Rank: 3
+Tipo de Canal: Education, Melhor Rank: 4
+Tipo de Canal: People, Melhor Rank: 9
+
+Top 20 Youtubers em cada país, agrupados por tipo de canal:
+País: United States, Tipo de Canal: Entertainment, Total de Canais: 108
+País: United States, Tipo de Canal: Music, Total de Canais: 81
+País: India, Tipo de Canal: Entertainment, Total de Canais: 45
+País: India, Tipo de Canal: Music, Total de Canais: 38
+País: nan, Tipo de Canal: People, Total de Canais: 30
+País: United States, Tipo de Canal: Games, Total de Canais: 26
+País: Brazil, Tipo de Canal: Entertainment, Total de Canais: 24
+País: United States, Tipo de Canal: People, Total de Canais: 24
+País: nan, Tipo de Canal: nan, Total de Canais: 23
+País: nan, Tipo de Canal: Music, Total de Canais: 20
+País: Indonesia, Tipo de Canal: Entertainment, Total de Canais: 19
+País: United States, Tipo de Canal: Education, Total de Canais: 18
+País: India, Tipo de Canal: Education, Total de Canais: 17
+País: United Kingdom, Tipo de Canal: Entertainment, Total de Canais: 16
+País: United States, Tipo de Canal: Comedy, Total de Canais: 16
+País: nan, Tipo de Canal: Entertainment, Total de Canais: 16
+País: Brazil, Tipo de Canal: Music, Total de Canais: 15
+País: United Kingdom, Tipo de Canal: Music, Total de Canais: 15
+País: India, Tipo de Canal: News, Total de Canais: 14
+País: India, Tipo de Canal: Comedy, Total de Canais: 12
+
+Top 10 Youtubers com a maior média de visualizações por vídeo:
+Youtuber: Bad Bunny, Uploads: 1, Visualizações: 30686342319, Média de Visualizações por Vídeo: 30686342319,00
+Youtuber: 5-Minute Crafts, Uploads: 1, Visualizações: 26236790209, Média de Visualizações por Vídeo: 26236790209,00
+Youtuber: Goldmines, Uploads: 1, Visualizações: 24118230580, Média de Visualizações por Vídeo: 24118230580,00
+Youtuber: A4, Uploads: 1, Visualizações: 22936630813, Média de Visualizações por Vídeo: 22936630813,00
+Youtuber: LUCCAS NETO - LUCCAS TOON, Uploads: 1, Visualizações: 22302547082, Média de Visualizações por Vídeo: 22302547082,00
+Youtuber: Badabun, Uploads: 1, Visualizações: 19398045702, Média de Visualizações por Vídeo: 19398045702,00
+Youtuber: Mar�����, Uploads: 1, Visualizações: 18597534412, Média de Visualizações por Vídeo: 18597534412,00
+Youtuber: Alfredo Larin, Uploads: 1, Visualizações: 14431830557, Média de Visualizações por Vídeo: 14431830557,00
+Youtuber: ANNA KOVA, Uploads: 1, Visualizações: 13959586308, Média de Visualizações por Vídeo: 13959586308,00
+Youtuber: RCTI - LAYAR DRAMA INDONESIA, Uploads: 1, Visualizações: 13478392540, Média de Visualizações por Vídeo: 13478392540,00

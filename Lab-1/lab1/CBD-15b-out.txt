@@ -1,0 +1,13 @@
+Insira o seu nome, o seu pedido e a respetiva quantidade, separados por ';', ou escreva 'quit' para sair:
+joao;tarte;5
+Pedido do utilizador: joao [produto: tarte ,quantidade 5] aceite com sucesso
+
+Insira o seu nome, o seu pedido e a respetiva quantidade, separados por ';', ou escreva 'quit' para sair:
+maria;bolos;3
+ERROR: Já passou a quantidade de produto permitida nesta janela temporal;
+Insira o seu nome, o seu pedido e a respetiva quantidade, separados por ';', ou escreva 'quit' para sair:
+joao;cookie;5
+ERROR: Já passou a quantidade de produto permitida nesta janela temporal;
+Insira o seu nome, o seu pedido e a respetiva quantidade, separados por ';', ou escreva 'quit' para sair:
+
+

@@ -1,0 +1,24 @@
+Qual a opção? (a ou b): a
+Limite alterado para 5 produtos.
+Timeslot alterado para 7 segundos.
+Produto Produto0 registado para o utilizador Joao
+Produto Produto1 registado para o utilizador Joao
+Produto Produto2 registado para o utilizador Joao
+Produto Produto3 registado para o utilizador Joao
+Produto Produto4 registado para o utilizador Joao
+Limite de produtos atingido para o utilizador Joao!
+Limite de produtos atingido para o utilizador Joao!
+Produto Produto7 registado para o utilizador Joao
+Produto Produto0 registado para o utilizador Maria
+Produto Produto1 registado para o utilizador Maria
+Produto Produto2 registado para o utilizador Maria
+Produto Produto3 registado para o utilizador Maria
+Produto Produto4 registado para o utilizador Maria
+Limite de produtos atingido para o utilizador Maria!
+Limite de produtos atingido para o utilizador Maria!
+Produto Produto7 registado para o utilizador Maria
+Produto Produto8 registado para o utilizador Maria
+Produto Produto9 registado para o utilizador Maria
+Produto Produto0 registado para o utilizador Joao
+Produto Produto1 registado para o utilizador Joao
+Produto Produto2 registado para o utilizador Joao
